@@ -11,7 +11,7 @@ Our wallet will always only be hosted on our official Github repo which is linke
 
 1) To download the official KYCC wallet please navigate to our wallet directory on our [Official GitHub v1.0](https://github.com/KYCCOIN/kyccoin/releases/tag/v1.0)
    
-   ![Example-Logo](https://i.imgur.com/TwXZ3tZ.jpg)
+   ![Example-download-KYCC-wallet](https://i.imgur.com/TwXZ3tZ.jpg)
 
 2) Select the correct wallet file from the above link for your PC,   
    for example I am using Windows so I am going to select the `kyccoin-1.0-win-x64.rar`   
@@ -57,7 +57,7 @@ How do I import the private key for a public address?
    `importprivkey privatekey` replace the text `privatekey` with a private key that your want to import in your wallet
    
    Example: `importprivkey aQsLtrgMgD7thc76G5uja9z9wVTZJdh5MMiPHWgUf7aKsDJhHHev`
-   ![Example-import-the-private-key](https://i.imgur.com/CNh5r95.png)
+   ![Example-import-the-private-key](https://i.imgur.com/zm5ZqMr.png)
 
 How do I create a receiving address?
 ---------------------
