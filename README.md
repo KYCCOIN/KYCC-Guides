@@ -4,9 +4,6 @@ Manuals
 How and where to download the KYCC wallet
 ---------------------
 
-Welcome to the KYCC community! 
-to become a full fledged member you definitely need to be running the KYCC wallet.
-
 Our wallet will always only be hosted on our official Github repo which is linked on our official website. Please always confirm that you are on the correct website. Never trust any links to the wallet sent to you by random people.
 
    [Official Site](https://kyccoin.io/kycc-wallet/)  
@@ -42,34 +39,24 @@ Back up wallet
 
 How do I export the private key for a public address?
 ---------------------
-Export the private key for an address with the following instructions.
-Open your wallet.
-Go to Tools -> Debug console.
-This is the console where you execute RPC commands.
-Type the following RPC command, to export your private key:
-`dumpprivkey publicaddress`
-
-Replace the text “publicaddress” with a public address from your wallet.
-
-Example:
-1) `dumpprivkey KJtA1U2MyfD5AU7kky1q3P5ceWws63xHCC`
-2) `aQsLtrgMgD7thc76G5uja9z9wVTZJdh5MMiPHWgUf7aKsDJhHHev`
+1) Open your wallet
+2) Go to Tools -> Debug console
+3) This is the console where you execute RPC commands
+4) Type the following RPC command, to export your private key:
+   `dumpprivkey publicaddress` replace the text `publicaddress` with a public address from your wallet
    
+   Example: `dumpprivkey KJtA1U2MyfD5AU7kky1q3P5ceWws63xHCC`
    ![Example-export-the-private-key](https://i.imgur.com/73KPfpa.png)
 
 How do I import the private key for a public address?
 ---------------------
-Import the private key for an address with the following instructions.
-Open your wallet.
-Go to Tools -> Debug console.
-This is the console where you execute RPC commands.
-Type the following RPC command, to import your private key:
-`importprivkey privatekey`
-
-Replace the text “privatekey” with a private key that your want to import in your wallet.
-Example:
-1) `importprivkey aQsLtrgMgD7thc76G5uja9z9wVTZJdh5MMiPHWgUf7aKsDJhHHev`
+1) Open your wallet
+2) Go to Tools -> Debug console
+3) This is the console where you execute RPC commands
+4) Type the following RPC command, to import your private key:
+   `importprivkey privatekey` replace the text `privatekey` with a private key that your want to import in your wallet
    
+   Example: `importprivkey aQsLtrgMgD7thc76G5uja9z9wVTZJdh5MMiPHWgUf7aKsDJhHHev`
    ![Example-import-the-private-key](https://i.imgur.com/CNh5r95.png)
 
 How do I create a receiving address?
